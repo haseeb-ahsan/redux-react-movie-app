@@ -1,71 +1,96 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # redux-react-movie-app
+# IMDB Movie App
+
+Welcome to the IMDB Movie App! This application is built using JavaScript, Redux, and SCSS. It fetches data from the OMDB API and uses Kandi's react-slick for a responsive carousel. Routing is implemented to display movie details upon clicking a movie.
+
+![Screenshot from 2024-06-12 21-47-30](https://github.com/haseeb-ahsan/redux-react-movie-app/assets/84566594/58036bd0-55d1-4837-84f6-fef6bd07947d)
+
+![Screenshot from 2024-06-12 21-48-12](https://github.com/haseeb-ahsan/redux-react-movie-app/assets/84566594/4770320c-855b-4232-8454-83ae8d25cb01)
+
+
+
+## Features
+
+- Fetch and display movie data from the OMDB API
+- Use Redux for state management
+- Styled using SCSS
+- Responsive carousel using Kandi's react-slick
+- Routing to display movie details
+
+## Technologies Used
+
+- JavaScript
+- React
+- Redux
+- SCSS
+- OMDB API
+- React Router
+- Kandi's react-slick
+
+## Getting Started
+## Dependencies
+
+- [react](https://reactjs.org/)
+- [redux](https://redux.js.org/)
+- [react-redux](https://react-redux.js.org/)
+- [redux-thunk](https://github.com/reduxjs/redux-thunk)
+- [react-router-dom](https://reactrouter.com/)
+- [axios](https://github.com/axios/axios)
+- [sass](https://sass-lang.com/)
+- [react-slick](https://react-slick.neostack.com/)
+- [slick-carousel](https://kenwheeler.github.io/slick/)
+
+## Usage
+
+1. The main page displays a list of movies fetched from the OMDB API.
+2. Click on a movie to view its details.
+3. Use the carousel to navigate through movie categories or featured movies.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgements
+
+- [OMDB API](http://www.omdbapi.com/)
+- [Kandi's react-slick](https://react-slick.neostack.com/)
+- [React Router](https://reactrouter.com/)
+
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/redux-movie-app.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd redux-movie-app
+    ```
+
+3. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+### OMDB API Key
+
+You need an API key from OMDB to fetch movie data. Get your API key from [OMDB API](http://www.omdbapi.com/).
+
+Create a `movieApiKey.js` file in the root of the project and add your API key:
+
+```plaintext
+APIKey=your_api_key_here
+
+npm start
+
+
+
